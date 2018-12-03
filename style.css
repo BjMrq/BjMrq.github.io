@@ -39,13 +39,22 @@ body{
   border-radius: 0 ;
 }
 
-
-
 .intro {
   font-family: 'Sedgwick Ave';
-  font-size: 140%;
-  border-bottom: 2px solid rgb(255, 255, 255);
+  font-size: 280%;
+  text-align: center;
+}
 
+.intro-sm {
+  font-family: 'Sedgwick Ave';
+  font-size: 280%;
+  text-align: center;
+}
+
+hr {
+  width: 600px;
+  border-top: 2px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0,0,0,0.6);
 }
 
 h1 {
