@@ -15,29 +15,36 @@
 
 <body>
   <nav class="navbar navbar-light navbar-expand-sm fixed-top" style="background-color: #563d7c;">
-    <a class="navbar-brand navTitle" href="index.html"><span class="fas fa-camera-retro"></span>&nbsp; Sophie Madonna</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="about.html">About Me<span class="sr-only">(current)</span></a>
+    <div class="d-flex">
+      <span class="w-100 d-lg-none d-block">
+        <!-- hidden spacer to center brand on mobile --></span>
+      <a class="navbar-brand navTitle" href="index.html"><span class="fas fa-camera-retro"></span>&nbsp; Sophie Madonna</a>
+      <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#">
+      </a>
+      <div class="w-25 text-right">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+    <div class="collapse navbar-collapse text-right" id="myNavbar">
+      <ul class="navbar-nav ml-auto flex-nowrap">
+        <li class="nav-item">
+          <a href="about.html" class="nav-link m-2 menu-item nav-active">About Me</a>
         </li>
-
-        <li class="nav-item active">
-          <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link m-2 menu-item">Contact</a>
         </li>
       </ul>
     </div>
   </nav>
 
   <div class="jumbotron">
-    <h2 class="intro display-2">A&nbsp; little&nbsp; bit&nbsp; about&nbsp; me </h2>
+    <h2 class="intro display-2">Somme&nbsp; Bio&nbsp; Infos</h2>
     <hr>
   </div>
   <div class="container">
+    <br>
     <h1 class="display-5">How i came to love photography!</h1>
     <br>
     <p>I was born 1988
