@@ -44,15 +44,17 @@ body{
   font-size: 280%;
   text-align: center;
   text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
-              0px 8px 10px rgb(0, 0, 0, 0.1),
-              0px 15px 18px rgb(0,0,0,0.1);
+              0px 8px 13px rgb(0, 0, 0, 0.1),
+              0px 18px 23px rgb(0,0,0,0.1);
+
 }
 
 
 hr {
   width: 600px;
   border-top: 2px solid #f8f8f8;
-  border-bottom: 1px solid rgba(0,0,0,0.6);
+  border-bottom: 1px solid rgba(0,0,0,0.4);
+
 }
 
 h1 {
