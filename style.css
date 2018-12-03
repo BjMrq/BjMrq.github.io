@@ -28,6 +28,10 @@ body{
     color: rgb(255, 255, 255);
 }
 
+.ml-auto {
+      left: auto !important;
+      right: 0px;
+    }
 
 .jumbotron {
   color: rgb(255, 255, 255) ;
@@ -35,10 +39,20 @@ body{
   border-radius: 0 ;
 }
 
+
+
 .intro {
   font-family: 'Sedgwick Ave';
-  font-size: 180%;
-  width: 40%;
+  font-size: 140%;
   border-bottom: 2px solid rgb(255, 255, 255);
 
+}
+
+h1 {
+  font-family: 'Sedgwick Ave';
+}
+
+p {
+  font-family: 'Ranga';
+  font-size: 24px;
 }
