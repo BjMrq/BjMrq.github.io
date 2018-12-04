@@ -25,12 +25,15 @@ body{
 
 .navbar {
   font-family: 'Ranga';
-  color: rgb(255, 255, 255);
+  color: white;
+  font-size: 1.3em;
 }
 
 
-.navbar-light .navbar-brand .navbar-nav .nav-link {
-    color: rgb(255, 255, 255);
+..navbar .navbar-light .navbar-brand .navbar-nav .nav-link .navTitle .navbar .navbar-dark {
+  font-family: 'Ranga';
+  color: white;
+  font-size: 1.3em;
 }
 
 
