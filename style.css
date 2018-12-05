@@ -35,8 +35,8 @@ body{
   font-size: 1.3em;
 }
 
-
 .jumbotron {
+  font-family: 'Tahu';
   color: rgb(255, 255, 255) ;
   background-color: #563d7c;
   border-radius: 0 ;
@@ -47,21 +47,34 @@ body{
   text-align: center;
   text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.3),
               0px 8px 13px rgb(0, 0, 0, 0.1);
-
 }
 
 hr {
   width: 500px;
   border-top: 2px solid #f8f8f8;
   border-bottom: 1px solid rgba(0,0,0,0.4);
-
 }
 
-h1 {
-  font-family: 'Sedgwick Ave';
+.display-5 {
+  font-family: 'Ranga';
+  font-weight: bold;
+}
+
+.container {
+  font-family: 'Ranga';
+}
+
+.display-5 {
+  font-family: 'Ranga';
+  font-weight: bold;
 }
 
 p {
   font-family: 'Ranga';
   font-size: 2rem;
+}
+
+
+.foyergrid {
+  background-color: RGBA(86, 61, 124, 0.1);
 }
