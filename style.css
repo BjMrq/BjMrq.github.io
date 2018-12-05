@@ -84,3 +84,7 @@ a {
 .panel-collapse {
   height: 100%;
 }
+
+.page-footer {
+  background-color: RGBA(86, 61, 124, 0.1);
+}
