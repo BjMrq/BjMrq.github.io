@@ -55,11 +55,6 @@ hr {
   border-bottom: 1px solid rgba(0,0,0,0.4);
 }
 
-.display-5 {
-  font-family: 'Ranga';
-  font-weight: bold;
-}
-
 .container {
   font-family: 'Ranga';
 }
@@ -74,7 +69,18 @@ p {
   font-size: 2rem;
 }
 
+a {
+  color: #563d7c;
+}
 
-.foyergrid {
+.foyerGrid {
   background-color: RGBA(86, 61, 124, 0.1);
+}
+
+.foyerText {
+  padding: 25px;
+}
+
+.panel-collapse {
+  height: 100%;
 }
