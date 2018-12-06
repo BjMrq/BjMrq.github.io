@@ -73,6 +73,14 @@ a {
   color: #563d7c;
 }
 
+.foyerIntro {
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
 .foyerGrid {
   background-color: RGBA(86, 61, 124, 0.1);
 }
