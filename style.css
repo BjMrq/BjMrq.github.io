@@ -80,6 +80,10 @@ a {
   text-align: center;
 }
 
+.readMore {
+  align-items: end;
+
+}
 
 .foyerGrid {
   background-color: RGBA(86, 61, 124, 0.1);
