@@ -1,0 +1,76 @@
+/* -- Fonts -- */
+
+@font-face {
+  font-family: 'Tahu';
+  src: url(./fonts/Tahu/Tahu!.ttf) format('truetype');
+}
+
+/* -- Style -- */
+
+body{
+  background-color: rgba(194, 147, 85, 0.1);
+  margin: 0;
+
+}
+
+.header {
+  background-color: rgb(85, 132, 194);
+  border-radius: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.colorDisplay{
+  text-transform: uppercase;
+}
+
+button{
+
+}
+
+.headerText{
+  margin: 5px;
+  font-family: 'Tahu';
+  font-size: 40px;
+  font-weight: 400 ;
+  letter-spacing: 5px;
+  color: white;
+}
+
+.navbar{
+  display: block;
+  background-color: white;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.square{
+  width: 30%;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.33%;
+  border-radius: 10px;
+}
+
+.footer{
+  clear: both;
+  position: relative;
+  height: 30px;
+  margin-top: 40px;
+  width:100%;
+  text-align: center;
+}
+
+
+/* -- JavaScriptStyle -- */
+
+.wrongChoice{
+  background-color: rgba(194, 147, 85, 0.0);
+}
