@@ -2,7 +2,9 @@
 
 // selecting elements to manipulate
 
-var colors = generateAllColors(6);
+var numOfSquares = 6;
+
+var colors = generateAllColors(numOfSquares);
 
 var squares = document.querySelectorAll(".square");
 
@@ -12,12 +14,41 @@ var colorDisplay = document.getElementById("colorDisplay");
 
 var reset = document.getElementById("reset");
 
+var easyBTN = document.getElementById("easyBTN");
+
+var hardBTN = document.getElementById("hardBTN");
+
 var messageToPlayer = document.getElementById("messageToPlayer");
 
 var gameColor = setColor ();
 
 colorDisplay.innerHTML = gameColor;
 
+
+easyBTN.addEventListener("click", function() {
+  numOfSquares = 3;
+  colors = generateAllColors(numOfSquares);
+  gameColor = setColor ();
+  colorDisplay.innerHTML = gameColor;
+  for(var i = 0; i < squares.length; i++){
+    if (i < 3){
+      squares[i].style.background = colors[i];
+    } else {
+      squares[i].style.background = "none";
+    }
+
+  }
+});
+
+hardBTN.addEventListener("click", function() {
+  numOfSquares = 6;
+  colors = generateAllColors(numOfSquares);
+  gameColor = setColor ();
+  colorDisplay.innerHTML = gameColor;
+  for(var i = 0; i < squares.length; i++){
+  	squares[i].style.background = colors[i];
+  }
+});
 
 // And Game
 
@@ -34,22 +65,28 @@ for(var i = 0; i < squares.length; i++){
         messageToPlayer.innerHTML = "Yeaaa you got it !";
         changeColors(pickedColor);
         header.style.backgroundColor = pickedColor;
-        reset.innerHTML = "PLAY AGAIN!";
+        reset.innerHTML = "PLAY AGAIN?";
+        reset.style.color = gameColor;
+        easyBTN.style.color = gameColor;
+        hardBTN.style.color = gameColor;
+        messageToPlayer.style.color = gameColor;
       } else {
-      this.classList.add("wrongChoice");
       this.style.backgroundColor = "rgba(194, 147, 85, 0.0)";
     }
   });
 }
 
 reset.addEventListener("click", function(){
-  colors = generateAllColors(6);
+  messageToPlayer.innerHTML = " ";
+  reset.innerHTML = "NEW COLORS";
+  colors = generateAllColors(numOfSquares);
   gameColor = setColor ();
   colorDisplay.innerHTML = gameColor;
   for(var i = 0; i < squares.length; i++){
   	// add initial colors to squares
   	squares[i].style.background = colors[i];
   }
+  displaySquares();
 });
 
 
